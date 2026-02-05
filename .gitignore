@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data artifacts
+backend/data/
+
+# Virtual environments
+backend/.venv/
+
+# Node
+frontend/node_modules/

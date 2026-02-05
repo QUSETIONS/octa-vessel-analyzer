@@ -1,0 +1,36 @@
+# OCTA Vessel Analyzer - Backend Dependencies
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+
+# Medical Image Processing
+pydicom>=2.4.0
+SimpleITK>=2.3.0
+nibabel>=5.0.0
+h5py>=3.9.0
+
+# Numerical Computing
+numpy>=1.24.0
+scipy>=1.11.0
+scikit-image>=0.21.0
+
+# Deep Learning (install separately for CUDA support)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 3D Visualization and Mesh Processing
+trimesh>=4.0.0
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+matplotlib>=3.7.0
+
+# Utilities
+tqdm>=4.66.0
+pydantic>=2.0.0
+
+# Parallel Processing
+joblib>=1.3.0
